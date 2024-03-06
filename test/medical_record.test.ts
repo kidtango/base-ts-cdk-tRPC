@@ -1,6 +1,6 @@
 import * as cdk from 'aws-cdk-lib';
 import { Template, Match } from 'aws-cdk-lib/assertions';
-import * as MedicalRecord from '../stacks/medical_record-stack';
+import * as MedicalRecord from '../stacks/backend';
 
 test('SQS Queue and SNS Topic Created', () => {
   const app = new cdk.App();
